@@ -80,6 +80,9 @@ body{
 
  .box1{
     background-color: var(--primary-moderate-violet);
+    background-image:url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px top;
     color:var(--primary-white);
  }
 
@@ -105,22 +108,25 @@ body{
         width: auto;
         margin-bottom: 0 ;
     }
-      .box1 {
-        grid-column-start: 1;
-        grid-column-end: 3;  
-      }
-      .box3 {
-        grid-row-start: 2;
-      }
-      .box4{
-        grid-row-start: 2;
-        grid-column-start: 2;
-        grid-column-end: 4;
-      }
-      .box5{
-        grid-row-start: 1;
-        grid-row-end: 3;
-      }
+    .box1 {
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-position: right 50px top; 
+    }
+    .box3 {
+    grid-row-start: 2;
+    }
+    .box4{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    }
+    .box5{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
+
+
       
 }
 
